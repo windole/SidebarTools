@@ -6,8 +6,6 @@
 	}
 }
 
-@import "mixin";
-
 $toolbar-size: 52px;
 .toolbar-layer,.toolbar-item{
 	background-image:url(../img/toolbar.png);
@@ -78,10 +76,3 @@ $toolbar-size: 52px;
 	@include transition(all 1s);
 
 }
-
-
-
-
-
-
-
